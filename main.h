@@ -1,5 +1,5 @@
 #ifndef MAIN_H
 #define MAIN_H
 
-void print_line(int n);
+void reset98(int *n);
 #endif

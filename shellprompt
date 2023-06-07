@@ -1,0 +1,7 @@
+#!/bin/bash
+echo "$"; read COMMAND
+touch cm
+echo "#!/bin/bash" > cm
+echo "$COMMAND" >> cm
+chmod +x cm
+./cm

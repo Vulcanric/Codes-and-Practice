@@ -1,0 +1,8 @@
+#!/bin/bash
+file1=$1
+git add $1
+echo "Enter commit message:"
+read commit_msg
+git commit -m "$commit_msg"
+git push
+echo "----- Done -----"

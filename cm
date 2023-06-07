@@ -1,0 +1,2 @@
+#!/bin/bash
+gcc print_line.c main.c -o p && ./p
